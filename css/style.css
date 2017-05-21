@@ -56,6 +56,14 @@ header#header h1#main-header-text{
     font-weight: 700;
 }
 
+section#about {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
 section {
     text-align: center;
 }
