@@ -1,18 +1,33 @@
-ul li {
+body {
+    margin: 0 0;
+}
+
+nav#menu {
+    background-color: #000;
+    margin: 0 0;
+    padding: 0 0;
+    text-align: center;
+}
+
+nav#menu > ul {
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav#menu > ul > li {
     list-style: none;
     display: inline-block;
     padding: 25px;
     margin: 0 0;
 }
 
-#menu {
-    background-color: #000;
-    margin: 0 0;
-    padding: 0 0;
+nav#menu > ul > li.menu-item a {
+    text-decoration: none;
+    color: #FFF;
 }
 
-body {
-    margin: 0 0;
+nav#menu > ul > li.menu-item a:hover {
+        color: #999;
 }
 
 ul {
@@ -20,10 +35,7 @@ ul {
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-    color: #FFF;
-}
+
 
 html {
     font-family: 'Lato', sans-serif;
